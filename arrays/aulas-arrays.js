@@ -6,9 +6,7 @@ const notas = [];
 notas.push(9);
 notas.push(7);
 notas.push(8);
-notas.push(6);
-notas.push(5);
-notas.push(8);
+
 
 /*const soma = notas[0] + notas[1] + notas[2] + notas[3] + notas[4];
 const media = soma / notas.length;
@@ -31,6 +29,7 @@ for (let ii = 0; ii < nome.length; ii++) {
 let soma = 0;
 
 for (let i = 0; i < notas.length; i++) {
+    
     const nota = notas[i];
     soma = soma + nota;
    
@@ -38,3 +37,10 @@ for (let i = 0; i < notas.length; i++) {
 
 const media = soma / notas.length;
 console.log(media);
+
+const numero = 5;
+for (let i = 1; i <= 10; i++) {
+
+       console.log(i * numero);
+    
+}
